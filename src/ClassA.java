@@ -22,5 +22,9 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
-
+	
+	public String toString() {
+		String bob = "A = " + a + " : B = " + b + " : Y = " + y;
+		return bob;
+	}
 }
