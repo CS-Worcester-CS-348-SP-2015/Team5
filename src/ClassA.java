@@ -32,11 +32,20 @@ public class ClassA {
 		return x;
 	}
 
+
+	public setZ(boop){
+		boop = z;
+		
+	}
+	public getZ(){
+		return z;
+
 	public void setA(int num) {
 		num = a;
 	}
 	
 	public int getA() {
 		return a;
+
 	}
 }
