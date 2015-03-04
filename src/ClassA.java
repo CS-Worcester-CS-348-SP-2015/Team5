@@ -21,6 +21,7 @@ public class ClassA {
 	private int a;
 	private int b;
 	private int y;
+	private int c;
 	private int z;
 	private int x;
 	
@@ -30,6 +31,14 @@ public class ClassA {
 	
 	public int getX() {
 		return x;
+	}
+	
+	public void setC(int num) {
+		num = c;
+	}
+	
+	public int getC() {
+		return c;
 	}
 
 	public void setA(int num) {
