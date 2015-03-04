@@ -22,6 +22,16 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	private int x;
+	
+	public void setX(int num) {
+		num = x; 
+	}
+	
+	public int getX() {
+		return x;
+	}
+
 
 	public setZ(boop){
 		boop = z;
@@ -29,5 +39,13 @@ public class ClassA {
 	}
 	public getZ(){
 		return z;
+
+	public void setA(int num) {
+		num = a;
+	}
+	
+	public int getA() {
+		return a;
+
 	}
 }
