@@ -22,9 +22,19 @@ public class ClassA {
 	private int b;
 	private int y;
 	private int z;
+	private int x;
 	
 	public String toString() {
 		String bob = "A = " + a + " : B = " + b + " : Y = " + y;
 		return bob;
 	}
+	
+	public void setX(int num) {
+		num = x; 
+	}
+	
+	public int getX() {
+		return x;
+	}
+
 }
