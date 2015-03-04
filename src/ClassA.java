@@ -23,4 +23,11 @@ public class ClassA {
 	private int y;
 	private int z;
 
+	public setZ(boop){
+		boop = z;
+		
+	}
+	public getZ(){
+		return z;
+	}
 }
