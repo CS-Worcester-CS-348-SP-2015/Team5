@@ -32,4 +32,11 @@ public class ClassA {
 		return x;
 	}
 
+	public void setA(int num) {
+		num = a;
+	}
+	
+	public int getA() {
+		return a;
+	}
 }
