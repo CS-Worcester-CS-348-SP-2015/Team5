@@ -25,6 +25,11 @@ public class ClassA {
 	private int z;
 	private int x;
 	
+	public String toString() {
+		String bob = "A = " + a + " : B = " + b + " : Y = " + y;
+		return bob;
+	}
+	
 	public void setX(int num) {
 		num = x; 
 	}
@@ -41,11 +46,20 @@ public class ClassA {
 		return c;
 	}
 
+
+	public setZ(boop){
+		boop = z;
+		
+	}
+	public getZ(){
+		return z;
+
 	public void setA(int num) {
 		num = a;
 	}
 	
 	public int getA() {
 		return a;
+
 	}
 }
