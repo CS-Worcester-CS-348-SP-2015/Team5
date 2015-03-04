@@ -39,10 +39,10 @@ public class ClassA {
 
 
 	public setZ(boop){
-		boop = z;
+		z = boop;
 		
 	}
-	public getZ(){
+	public int getZ(){
 		return z;
 
 	public void setA(int num) {
@@ -52,5 +52,12 @@ public class ClassA {
 	public int getA() {
 		return a;
 
+	}
+	
+	public setB(int){
+		b = int;
+	}
+	public int getB(){
+		return b;
 	}
 }
